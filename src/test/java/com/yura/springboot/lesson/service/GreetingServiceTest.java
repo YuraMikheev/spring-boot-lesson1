@@ -29,4 +29,9 @@ class GreetingServiceTest {
         String expectedMessage = "Hello World 2";
         assertEquals(expectedMessage, greetingService.greeting());
     }
+
+    @Test
+    void returnExistedRows() {
+        System.out.println(greetingService.getAll());
+    }
 }
