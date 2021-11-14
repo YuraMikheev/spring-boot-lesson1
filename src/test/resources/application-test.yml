@@ -1,1 +1,4 @@
 app.services.greeting.message: Hello World 2
+spring.datasource.url: jdbc:postgresql://localhost:5432/lesson
+spring.datasource.username: lesson_user
+spring.datasource.password: password
